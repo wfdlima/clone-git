@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: #f3f3f3
+}
+
+main {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.alto {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 65px;
+    height: 65px;
+}
+
+h1 {
+    margin: 0.65em 0;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0, 5px;
+}
+
+.meio {
+    width: 308px;
+    height: 220px;
+    background: #ebedf0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #f3f3f3;
+
+}
+
+.textfield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#la{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 274px;
+    height: 18px;
+    margin: 10px;
+
+}
+
+.textfield label {
+    width: 274px;
+    height: 21px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.textfield input {
+    width: 274px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    background: #f4f4f4;
+    color: black;
+    font-size: 12pt;
+    outline: none;
+
+}
+
+.textfield a{
+   
+    position: absolute;
+    float: right;
+    width: 274px;
+    height: 18px;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: right;
+    display: inline-flex;
+    justify-content: right;
+    
+
+
+}
+
+
+
+button {
+    width: 274px;
+    height: 32px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #30a14e;
+    border-radius: 5px;
+}
+
+ul li {
+    padding:
+        color aqua;
+    align-items: baseline;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+
+
+
+
+footer>a {
+    color: blue;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 12px;
+}
+
+#caa {
+    color: gray;
+}
